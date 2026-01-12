@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174491303820",
+    "project_id": "ogasso-35be6",
+    "storage_bucket": "ogasso-35be6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174491303820:android:635e7af3ea90ebe5f1a0a9",
+        "android_client_info": {
+          "package_name": "com.example.ogasso_employe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB52vmltfXzmI5pblR34v3FGHy3MNQd8H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
