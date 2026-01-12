@@ -31,9 +31,7 @@ class _ReservationDetailState extends State<ReservationDetail> {
             if (state is ReservationDetailInitial) {
               int total = 0;
               state.reservationProduits.forEach((produit) {
-                if (produit.menuProduit.produit.prix != null) {
-                  total += produit.quantite * produit.menuProduit.produit.prix;
-                }
+                total += produit.quantite * produit.menuProduit.produit.prix;
               });
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
